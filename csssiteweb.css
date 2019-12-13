@@ -1,4 +1,3 @@
-/* Définition des polices personnalisées */
 
 @font-face
 {
@@ -27,7 +26,7 @@
 
 body
 {
-    background: url('images/fond_jaune.png');
+    background: url('images/blanc.jpg');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
@@ -211,15 +210,6 @@ aside
     left: -12px;
 }
 
-#photo_zozor
-{
-    text-align: center;
-}
-
-#photo_zozor img
-{
-    border: 1px solid #181818;
-}
 
 aside img
 {
@@ -245,12 +235,12 @@ footer h1
 }
 
 
-#tweet
+#periode
 {
     width: 28%;
 }
 
-#mes_photos
+#photos
 {
     width: 35%;
 }
@@ -260,28 +250,27 @@ footer h1
     width: 31%;
 }
 
-#mes_photos img
+#photos img
 {
     border: 1px solid #181818;
     margin-right: 2px;
 }
 
-#listes_amis
+#listes_lieux
 {
     display: flex;
     justify-content: space-between;
     margin-top: 0;
 }
 
-#mes_amis ul
+#lieux ul
 {
     list-style-image: url('images/ico_liensexterne.png');
     padding-left: 2px;
 }
 
-#mes_amis a
+#lieux a
 {
     text-decoration: none;
     color: #760001;
 }
-
